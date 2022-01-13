@@ -1,0 +1,45 @@
+.widget {
+  margin-top: 34px;
+
+  @media (max-width: 768px) {
+    margin-top: 30px;
+  }
+
+  &__item {
+    width: 220px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 10px;
+    margin-bottom: 5px;
+
+    background: rgba(6, 1, 78, 0.4);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__item-currency {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+
+    color: #fff;
+  }
+
+  &__item-amount {
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 19px;
+    color: #ffd046;
+
+    padding-left: 12px;
+  }
+
+  &__img {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}

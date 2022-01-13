@@ -1,0 +1,140 @@
+.how-sign-up {
+    background: url('/img/how-sign-up/how-sign-up-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: #333;
+
+    padding: 50px 0;
+
+    &__title {
+        color: #fff;
+
+        font-family: "Lato-Bold", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+
+        text-align: center;
+
+        padding-bottom: 30px;
+    }
+
+    &__text {
+        color: #fff;
+
+        font-family: "Lato-Regular", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+
+        text-align: center;
+
+        padding-bottom: 25px;
+    }
+
+    &__cols-wrap {
+        display: flex;
+        justify-content: center;
+
+        padding-top: 70px;
+
+        @media (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+    }
+
+    &__item {
+        min-width: 200px;
+
+        flex: 0 1 33.33%;
+
+        background: #fff;
+
+        position: relative;
+
+        margin-right: 20px;
+        padding: 70px 20px 50px 20px;
+
+        @media (max-width: 768px) {
+            min-width: 100%;
+            margin-right: 0;
+            margin-top: 120px;
+        }
+
+        &:first-child {
+            @media (max-width: 768px) {
+                margin-top: 20px;
+            }
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__img-wrap {
+        display: flex;
+        justify-content: center;
+
+        position: absolute;
+        top: -70px;
+        left: 50%;
+
+        transform: translateX(-50%);
+    }
+
+    &__item-img {
+        width: 137px;
+        height: 137px;
+    }
+
+    &__item-title {
+        font-family: "Lato-Bold", sans-serif;
+        font-size: 24px;
+        line-height: 26px;
+
+        padding: 30px 0 20px 0;
+
+        text-align: center;
+    }
+
+    &__item-text {
+        font-family: "Lato-Regular", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+
+        text-align: center;
+    }
+
+    &__btn-wrap {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__btn {
+        background: #7ed321;
+
+        color: #fff;
+        font-family: "Roboto-Bold", sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+
+        text-transform: uppercase;
+
+        padding: 37px 40px;
+        margin-top: 30px;
+
+        border-radius: 100px;
+
+        text-shadow: 0.5px 0.866px 5px rgba(0, 0, 0, 0.294);
+
+        transition: background 600ms;
+
+        &:hover {
+            cursor: pointer;
+            background: #f89b08;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.accordion {
+  background-color: #f1f1f1;
+  color: #666;
+
+  width: 100%;
+
+  border: none;
+  outline: none;
+
+  font-family: "Roboto-Medium";
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+
+  border-radius: 60px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  cursor: pointer;
+
+  padding: 18px;
+  padding-left: 30px;
+
+  margin-bottom: 20px;
+
+  transition: 600ms;
+
+  @media (max-width: 576px) {
+    padding-right: 50px;
+    font-size: 16px;
+  }
+
+  &:active {
+    background-color: #d2fda3;
+  }
+
+  &:hover {
+    background-color: #d2fda3;
+  }
+
+  &__panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+
+    background: url('/img/accordion/accordion-loupe.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-width: 39px;
+    min-height: 44px;
+
+    float: left;
+    margin-right: 20px;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+
+    background: url('/img/accordion/accordion-plus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    min-width: 15px;
+    min-height: 15px;
+
+    font-size: 13px;
+    color: #777;
+
+    margin-left: 5px;
+
+    position: absolute;
+    right: 30px;
+  }
+
+  &:active::after {
+    content: '';
+
+    background: url('/img/accordion/accordion-plus.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 15px;
+    height: 15px;
+  }
+
+  &__wrap {
+    padding-top: 30px;
+
+    width: 100%;
+  }
+
+  &__text {
+    color: #666;
+
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+    padding-bottom: 25px;
+  }
+}

@@ -1,0 +1,22 @@
+.faq {
+    color: #333;
+    padding: 40px 0;
+
+    &__title {
+        font-family: "Lato-Bold", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+
+        text-align: center;
+
+        padding-bottom: 30px;
+    }
+
+    &__text {
+        font-family: "Lato-Regular", sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+
+        text-align: center;
+    }
+}

@@ -1,0 +1,34 @@
+@mixin bdr {
+  border: solid 1px magenta;
+}
+
+@import './reset';
+@import './fonts';
+
+@import './blocks/modal';
+
+@import './blocks/container';
+@import './blocks/top';
+@import './blocks/header';
+@import './blocks/form';
+@import './blocks/widget';
+@import './blocks/about';
+@import './blocks/how-trade';
+@import './blocks/how-does-improve';
+@import './blocks/benefits';
+@import './blocks/how-sign-up';
+@import './blocks/faq';
+@import './blocks/accordion';
+@import './blocks/online-trading';
+@import './blocks/rules-and-risk';
+@import './blocks/footer';
+@import './blocks/form-modal';
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+}
