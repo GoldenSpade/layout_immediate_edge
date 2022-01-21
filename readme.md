@@ -18,6 +18,8 @@ Fonts are placed in a separate file "_fonts".
 
 The "year" in footer updates automatically from js-file.
 
+The JavaScript code is placed in separate modules: accordion.js, footer.js, modal.js.
+
 For implementation of the project, was used Parcel-Bundler. It's easy to set up and very fast.
 
 ### Technology stack: ###
