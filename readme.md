@@ -1,4 +1,4 @@
-# Landing Page - Immediate Edge - Geschäfts bedin gungen. #
+# Landing Page - Immediate Edge #
 
 The page is fully responsive for screens with a width of 350px and more.
 
@@ -8,15 +8,9 @@ Responsive-adaptive layout was created by using "rubber blocks", flexboxes and m
 
 Media-breakpoints: 350px, 576px, 768px, 992px, 1410px and more.
 
-The gallery in the header is written in pure Javascript. The images are automatically changed every 5 seconds. This parameter can be easily change in the script settings (there are comments in the script).
+Modal window and accordion are written in pure Javascript.
 
-The burger menu will be displayed on mobile devices.
-
-All transitions and hover-effects are performed with a 400ms delay. This parameter was moved to a variables in the "_vars" file.
-
-In total, to variables were moved: colors, transition durations and sizes of all fonts.
-
-One "sectionTitle" mixin was created and used for titles of blocks.
+All transitions and hover-effects are performed with a 600ms delay.
 
 The SASS preprocessor with SCSS syntax was used.
 
@@ -33,6 +27,5 @@ For implementation of the project, was used Parcel-Bundler. It's easy to set up 
 * JavaScript;
 * Parcel-Bundler;
 * Visual Studio Code.
-* DEMO LINK
 
-[DEMO LINK](https://billizane.github.io/layout_immediate_edge/)
+### [DEMO LINK](https://billizane.github.io/layout_immediate_edge/) ###
