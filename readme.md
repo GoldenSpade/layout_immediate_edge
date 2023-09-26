@@ -1,4 +1,4 @@
-# Landing Page - Immediate Edge #
+# [Landing Page - Immediate Edge](https://goldenspade.github.io/layout_immediate_edge/) #
 
 The page is fully responsive for screens with a width of 350px and more.
 
@@ -30,4 +30,4 @@ For implementation of the project, was used Parcel-Bundler. It's easy to set up 
 * Parcel-Bundler;
 * Visual Studio Code.
 
-### [DEMO LINK](https://billizane.github.io/layout_immediate_edge/) ###
+### [DEMO LINK](https://goldenspade.github.io/layout_immediate_edge/) ###
